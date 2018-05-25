@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - "9"
+
+cache:
+  directories:
+    - node_modules
+
+script:
+  - npm run build 
+   
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: node dist/main.dist.js 
+    on:
+      branch: master

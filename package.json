@@ -1,0 +1,29 @@
+{
+  "name": "halftone-me",
+  "version": "1.0.0",
+  "description": "Halftone images on the web",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "get-pixels": "^3.3.0",
+    "sharp": "^0.20.2",
+    "twitter": "^1.7.1",
+    "vue": "^2.5.16",
+    "vue-server-renderer": "^2.5.16"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "vue-loader": "^15.2.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mauro Mandracchia",
+  "license": "MIT"
+}
