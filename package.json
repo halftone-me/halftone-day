@@ -4,7 +4,7 @@
   "description": "Halftone images on the web",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "cheerio": "^1.0.0-rc.2",
     "get-pixels": "^3.3.0",
     "sharp": "^0.20.2",
