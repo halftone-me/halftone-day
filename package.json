@@ -7,7 +7,7 @@
     "axios": "^0.18.1",
     "cheerio": "^1.0.0-rc.2",
     "get-pixels": "^3.3.0",
-    "sharp": "^0.20.2",
+    "sharp": "^0.30.5",
     "twitter": "^1.7.1",
     "vue": "^2.5.16",
     "vue-server-renderer": "^2.5.16"
